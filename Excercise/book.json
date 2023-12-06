@@ -1,0 +1,27 @@
+{
+  "Library": {
+    "Book": [
+      {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "publishedYear": 1997,
+        "numberOfPages": 223,
+        "authors": ["J. K. Rowling"]
+      },
+
+      {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "publishedYear": 1998,
+        "numberOfPages": 251,
+        "authors": ["J. K. Rowling"]
+      },
+
+      {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "publishedYear": 1999,
+        "numberOfPages": 317,
+        "authors": ["J. K. Rowling"]
+      }
+
+    ]
+  }
+}

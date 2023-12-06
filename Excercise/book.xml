@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<Library>
+    <Book>
+        <title>Harry Potter and the Philosopher's Stone</title>
+        <publishedYear>1997</publishedYear>
+        <numberOfPages>223</numberOfPages>
+        <authors>
+            <author>J. K. Rowling</author>
+        </authors>
+    </Book>
+
+    <Book>
+        <title>Harry Potter and the Chamber of Secrets</title>
+        <publishedYear>1998</publishedYear>
+        <numberOfPages>251</numberOfPages>
+        <authors>
+            <author>J. K. Rowling</author>
+        </authors>
+    </Book>
+
+    <Book>
+        <title>Harry Potter and the Prisoner of Azkaban</title>
+        <publishedYear>1999</publishedYear>
+        <numberOfPages>317</numberOfPages>
+        <authors>
+            <author>J. K. Rowling</author>
+        </authors>
+    </Book>
+
+</Library>
