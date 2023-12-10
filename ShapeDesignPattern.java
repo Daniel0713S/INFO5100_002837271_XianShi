@@ -95,7 +95,7 @@ public class ShapeDesignPattern {
             System.out.println("Choose a shape to draw (1. Rectangle, 2. Circle, 3. Exit): ");
             int choice = scanner.nextInt();
 
-            // Draw shapes using the RectangleFactory.
+            // Draw shapes using the ShapeFactory.
             if (choice == 1) {
                 shapeDrawing.drawShape(new RectangleFactory().createShape());
             } else if (choice == 2) {
