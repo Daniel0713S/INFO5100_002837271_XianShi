@@ -1,5 +1,7 @@
+// Abstract class
 abstract class Shape {
     String name;
+    // Default method to calculate the area
     public double CalculateArea(){
         return 0.0;
     }
@@ -7,12 +9,14 @@ abstract class Shape {
     public Shape(String name){
         this.name = name;
     }
-
+    
+    // Static method to get the name of the shape
     public String getName(){
         return name;
     }
 }
 
+// Subclass representing a triangle
 class triangle extends Shape{
     double base;
     double height;
@@ -22,7 +26,8 @@ class triangle extends Shape{
         this.base = base;
         this.height = height;
     }
-
+    
+    // Override method to calculate the area of the triangle
     @Override
     public double CalculateArea() {
         return 0.5 * base * height;
@@ -31,6 +36,7 @@ class triangle extends Shape{
 
 }
 
+// Subclass representing a rectangle
 class rectangle extends Shape{
     double width;
     double length;
@@ -40,7 +46,8 @@ class rectangle extends Shape{
         this.width = width;
         this.length = length;
     }
-
+    
+    // Override method to calculate the area of the rectangle
     @Override
     public double CalculateArea() {
         return width * length;
@@ -49,6 +56,7 @@ class rectangle extends Shape{
 
 }
 
+// Subclass representing a circle
 class circle extends Shape{
     double radius;
     double pi = 3.1415926;
@@ -57,7 +65,7 @@ class circle extends Shape{
         super(name);
         this.radius = radius;
     }
-
+    // Override method to calculate the area of the circle
     @Override
     public double CalculateArea() {
         return radius * radius * pi;
@@ -66,7 +74,7 @@ class circle extends Shape{
 
 }
 
-
+// Subclass representing a square
 class square extends Shape{
     double length;
 
@@ -74,7 +82,7 @@ class square extends Shape{
         super(name);
         this.length = length;
     }
-
+    // Override method to calculate the area of the square
     @Override
     public double CalculateArea() {
         return length * length;
